@@ -6,7 +6,16 @@ namespace stringpractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("What is your first name?");
+
+            string firstname;
+       
+            firstname= Console.ReadLine();
+
+            Console.WriteLine("Your name is:" + firstname);
+
+
+
         }
     }
 }
